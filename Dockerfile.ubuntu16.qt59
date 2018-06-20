@@ -1,0 +1,13 @@
+FROM ubuntu:16.04
+
+ADD run-ubuntu16-qt59.sh /root/
+RUN chmod +x /root/run-ubuntu16-qt59.sh
+
+# ADD . /root/go/src/github.com/kitech/qt.go/
+ADD . /root/
+# ADD CMakeLists.txt /root/
+# ADD src /root/src
+# ADD tc-mingw.cmake /root/
+
+ENTRYPOINT ["/root/run-ubuntu16-qt59.sh"]
+
