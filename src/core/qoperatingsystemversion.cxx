@@ -41,10 +41,10 @@ void C_ZN23QOperatingSystemVersion7currentEv() {
 // Public static inline Visibility=Default Availability=Available
 // /usr/include/qt/QtCore/qoperatingsystemversion.h:95
 // [4] QOperatingSystemVersion::OSType currentType()
-extern "C" Q_DECL_EXPORT
-QOperatingSystemVersion::OSType C_ZN23QOperatingSystemVersion11currentTypeEv() {
-  return (QOperatingSystemVersion::OSType)QOperatingSystemVersion::currentType();
-}
+// extern "C" Q_DECL_EXPORT
+// QOperatingSystemVersion::OSType C_ZN23QOperatingSystemVersion11currentTypeEv() {
+//  return (QOperatingSystemVersion::OSType)QOperatingSystemVersion::currentType();
+//}
 
 // Public inline Visibility=Default Availability=Available
 // /usr/include/qt/QtCore/qoperatingsystemversion.h:114
